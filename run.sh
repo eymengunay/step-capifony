@@ -2,8 +2,7 @@
 
 # First make sure capifony is installed
 if ! type capifony &> /dev/null ; then
-    info "capifony was not found, installing"
-    gem install capifony
+    fail "capifony was not found"
 else
     info "capifony is available"
     debug "capifony version: $(capifony --version)"
