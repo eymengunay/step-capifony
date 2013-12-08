@@ -18,7 +18,7 @@ More information:
 ``` yaml
 deploy:
   steps:
-    - capifony
+    - eymengunay/capifony@0.0.5
 ```
 
 Note however that this will also apply to your local repository, so another recommendation is to use [multistage extension](http://capifony.org/cookbook/using-the-multistage-extension.html) and use a seperate stage for wercker deployment.
