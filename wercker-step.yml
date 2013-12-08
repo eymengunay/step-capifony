@@ -1,7 +1,9 @@
 name: capifony
-version: 0.0.4
-description: capifony step
+version: 0.0.5
+description: Capifony deployment for your Symfony 1.x and/or 2.x application
 keywords:
   - capifony
   - capistrano
+  - symfony
+  - symfony2
   - php
